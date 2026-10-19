@@ -9,6 +9,5 @@ export default function SearchBar({ keyword, onSearch }) {
   }
   return <form className="search" onSubmit={handleSubmit}>
     <input aria-label="Tìm tên sản phẩm" placeholder="Tìm tên sản phẩm..." value={input} onChange={event => setInput(event.target.value)} />
-    <button type="submit">Tìm</button>
   </form>;
 }
